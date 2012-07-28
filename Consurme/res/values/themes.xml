@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WCActionBarTheme" parent="@style/Theme.GreenDroid.NoTitleBar">
+        <item name="gdActionBarTitleColor">#FFFFFF</item>
+        <item name="gdActionBarBackground">@drawable/action_bar_background</item>
+        <item name="gdActionBarApplicationDrawable">@drawable/application_logo</item>
+    </style>
+</resources>

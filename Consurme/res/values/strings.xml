@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Textos Genéricos do App--> 
+    <string name="hello">Hello World, ConsurmeActivity!</string>
+    <string name="app_name">WeConsume</string>
+	<string name="text_sobre">O Aplicativo Consurme</string>    
+	<string name="app_url">https://www.facebook.com/rafakerr</string>        
+	
+
+	
+    <!-- Textos para o Menu-->   		
+	<string name="icon_close">Fechar</string>	
+	<string name="icon_about">Sobre</string>	
+	<string name="icon_help">Ajuda</string>
+	<string name="icon_home">Home</string>			
+		
+		
+    <!-- Textos para EditText-->    
+	<string name="add_categoria">Adicione uma Categoria</string>	    
+	<string name="add_Valor_Consumo">Adicione um Consumo</string>	   
+	<string name="add_categoria_valor">Adicione um valor Limite</string>		
+	<string name="btn_add_categoria">Cadastrar Categoria</string>
+	<string name="btn_edit_categoria">Atualizar Categoria</string>
+	<string name="btn_list_categoria">Listar Categorias</string>	
+	<string name="txt_selecione_categoria">Selecione uma categoria</string>
+	<string name="txt_add_valor">Adicione um valor</string>	    
+	
+	
+    <!-- Mensagens Validação de sucesso-->
+    <string name="sucesso">Sucesso!</string>	
+    <string name="sucesso_salva_categoria">Categoria salva com Sucesso!</string>	
+    <string name="sucesso_altera_categoria">Categoria alterada com Sucesso!</string>
+    <string name="sucesso_excluir_categoria">Categoria excluida com Sucesso!</string>
+    <string name="sucesso_limpar_valor_categoria">Valor Limite limpo com Sucesso!</string>      
+    <string name="sucesso_salva_consumo">Consumo salvo com Sucesso!</string>	
+    
+    
+    <!-- Textos de spinners-->	
+	<string name="spinner_categoria">Escolha uma Categoria</string>   
+
+
+    <!-- Textos de button-->	
+	<string name="btn_atualizar_categoria">Atualizar</string>   		
+	<string name="btn_excluir_categoria">Excluir</string>   	
+    <string name="btn_limpar_valor_categoria">Limpar Valor</string> 
+  	<string name="btn_buscar_categoria">Buscar categoria</string>    		 
+	
+	
+    <!-- Mensagens Validação de campos null-->
+    <string name="erro_nome_categoria_null">Nome da Categoria em branco, favor preencher esse campo.</string>   
+    <string name="erro_valor_limite_null">Valor limite em branco, favor preencher esse campo.</string>      
+    <string name="erro_valor_consumo_null">Valor do Consumo em branco, favor preencher esse campo.</string>             	
+	
+	
+    
+    <string name="dialog_mensagem">        
+        Aplicativo para controle rápido de todos os seus consumos diários.
+    </string>   
+        
+    <string name="dialog_mensagem2">        
+  
+        Com o WeConsume você consegue ver rapidamente qual o limite da categoria que você cadastrou anteriormente,
+		assim, antes de comrpar alguma coisa, pode consultar se não alcançou o valor limite.    
+      
+    </string>   	
+	
+	<string-array name="categoria_array">
+	    
+	  <item>Roupas</item> 
+	  <item>Lanches</item>  
+	  <item>Cinema</item>  
+	  <item>Doces</item>
+	  <item>Pagamentos</item>  
+	  <item>Almoço</item>  
+	  <item>Motel</item>  	    	  	  	   
+	  
+	</string-array>
+	
+    <!-- Cores para o Sistema -->	
+	<color name="menu_normal">#3A77A6</color>
+	<color name="menu_focused">#ff097400</color>
+	<color name="menu_pressed">#ff005E24</color>
+	<color name="fundo_tela">#ff000000</color>
+	<color name="texto_tela">#ffffff</color>
+	<color name="color_white">#ffffff</color>
+    
+</resources>
